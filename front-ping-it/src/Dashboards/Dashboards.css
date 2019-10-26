@@ -1,0 +1,107 @@
+.section {
+   background-color: rgb(255, 255, 255)
+   }
+
+.Page-title {
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 1em;
+    color: rgb(5, 5, 5);
+}
+
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px ;
+    background-color: #ffffff9a;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 3px
+}
+
+.buttonajout{
+ 
+   
+    
+}
+.raf{
+      
+}
+
+.dashboard{
+    background-color: #f5f5f59a;
+
+    
+}
+.machines{
+    background-color: #f7f7f7;
+}
+.cbutton:hover {
+    font-size: 2vh;
+   
+    color: #f7f7f7;
+    background-color: rgb(120, 71, 166);
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+
+    padding: 1vw;
+   
+    
+    
+}
+.cbutton {
+    font-size: 2vh;
+   
+    color: rgb(120, 71, 166);
+    background-color: #f7f7f7;
+    border: solid;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: rgb(120, 71, 166);
+    padding: 1vw;  
+}
+
+/*
+.cbutton {
+    margin-top: 20px;
+  display: inline-block;
+  position: relative;
+  padding: 7px 7px;
+  top: 0;
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 4px;
+  border-color: rgb(58, 157, 238);
+  border-bottom: 1px solid rgba(21, 38, 44, 0.5);
+  background: rgb(58, 157, 238);
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba(15, 130, 165, 0.1);
+  
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.cbutton:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba(15, 122, 165, 0.2);
+  
+  -webkit-transform: rotateX(5deg);
+     -moz-transform: rotateX(5deg);
+      -ms-transform: rotateX(5deg);
+          transform: rotateX(5deg);
+}
+
+.cbutton:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba(15, 135, 165, 0);
+  background: rgb(58, 157, 238);
+}
+*/

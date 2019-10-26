@@ -1,0 +1,60 @@
+#cont
+{
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    
+ 
+   
+}
+.el:nth-child(2)
+{
+    border-radius: 10px;
+
+    background-color: rgb(255, 255, 255);
+    order: 3;
+}
+.el:nth-child(3)
+{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    order: 1;
+}
+.el:nth-child(4)
+{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    order: 2;
+}
+.fix{
+    position: fixed;
+    top: 220px;
+    left: 10px;
+}
+
+
+.centered {
+    animation: info 1 5s linear;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 125px;
+}
+
+@keyframes info {
+    0% { transform: rotateX(70deg) } 
+    
+    3% {  transform: rotateX(-50deg); }
+    4% { transform: rotateX(30deg) } 
+    5% {  transform: rotateX(-20deg); }
+      6% {  transform: rotateX(10); } 
+      100% {  transform: rotateX(0);} 
+  }
+.machine{
+    margin: 0 auto;
+   
+}
+
+
+
+  

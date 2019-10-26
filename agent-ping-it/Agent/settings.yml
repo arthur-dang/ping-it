@@ -1,0 +1,8 @@
+IPmachine: 0.0.0.0
+email_warning:  example@ex.com
+nom_machine: DTY
+services:
+- apache
+- docker
+- mongodb
+token: b0d2b0e446c660438c20

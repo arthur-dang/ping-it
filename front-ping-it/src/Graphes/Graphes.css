@@ -1,0 +1,46 @@
+.Graphes{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-style: solid;
+    border-color: rgb(235, 235, 235);
+  
+    width: 321px;
+    min-height: 200px;
+    height:auto;
+}
+.axe{
+    margin: auto;
+
+}
+.reglagebt{
+    border-color: rgb(255, 255, 255);
+ 
+    background-color: rgb(0, 0, 0);
+    -webkit-mask-image: url(set.svg) ;
+    mask-image: url(set.svg);
+    width: 30px;
+    height: 30px;
+    margin-left: 240px;
+    margin-top: 5px;
+
+ 
+
+  
+  
+}
+.reglagebt:hover{
+    background-color: rgb(13, 134, 172);
+
+    animation: reglage 1 6s linear;
+}
+@keyframes reglage {
+    0% { transform: rotateZ(0) } 
+    1% {  transform: rotateZ(-20deg); }
+    2% { transform: rotateZ(20deg) } 
+    3% {  transform: rotateZ(-20deg); }
+    4% { transform: rotateZ(20deg) } 
+    5% {  transform: rotateZ(-20deg); }
+      6% {  transform: rotateZ(0); } 
+      100% {  transform: rotateZ(0);} 
+  }
+  

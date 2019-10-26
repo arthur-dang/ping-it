@@ -1,0 +1,20 @@
+.alert{
+    margin-left: 10%
+}
+
+.boxalert{
+    margin-top: 2vh;
+    width: auto;
+}
+
+.ffield{
+    display: flex;
+    
+   
+}
+.ccontrol{
+    margin-bottom: 2vh;
+    margin-right: 1vh;
+    max-width: 22vh;
+
+}

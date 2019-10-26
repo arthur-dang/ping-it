@@ -1,0 +1,192 @@
+
+.dashtrash{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.box{
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px ;
+    background-color: #fffefe;
+    min-height: 400px;
+    min-width: 400px;
+    height: auto;
+ 
+   
+ 
+    
+    flex-wrap:wrap;
+}
+
+
+.target{
+   background-color: rgba(255, 255, 255, 0) ;
+   width: auto;
+   height: auto;
+   padding: 20px;
+   margin-top: 10px;
+}
+.target .element{
+    width: auto;
+   height: auto;
+   margin-top: 10px;
+}
+.container{
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-style: solid;
+    border-color: #4a4a4a;;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    color:  #4a4a4a;
+    text-align: center;
+vertical-align: middle;
+border-width: 2px;
+ }
+ .container:hover{
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-style: solid;
+    border-color: rgb(74, 158, 253);
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    color: rgb(74, 158, 253);
+    text-align: center;
+vertical-align: middle;
+ }
+ 
+
+.p{
+    width: 20vw;
+    border:solid;
+    min-width:90px;
+
+}
+
+ .poubelle{
+    
+   
+    height: 100%;
+    width: 100%;
+    z-index: 1; 
+    background-color: rgba(231, 231, 231, 0.746);
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  
+ }
+ 
+ .imagep{
+
+    position: fixed;
+    display: block;
+margin: 0 auto;
+    
+ }
+ .clearall{
+    position: fixed;
+    top: 150px;
+    right: 50px;
+ }
+ .consultation{
+     margin-left: auto;
+     margin-top: 10px;
+     margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+ }
+ .consultel{
+     margin-left: 10px;
+
+ }
+ .modif{
+     
+   margin-left: 10%
+
+ }
+ .navdnd{
+     display: flex;
+     justify-content: space-evenly
+ }
+
+ 
+ .consulter{
+    margin-top: -10px;
+    margin-left: 20px;
+  display: inline-block;
+  position: relative;
+  padding: 7px 7px;
+  top: 0;
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica;
+  border-radius: 4px;
+  border-color: rgb(58, 157, 238);
+  border-bottom: 1px solid rgba(21, 38, 44, 0.5);
+  background: rgb(58, 157, 238);
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba(15, 130, 165, 0.1);
+  
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.consulter:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba(15, 122, 165, 0.2);
+  
+  -webkit-transform: rotateX(5deg);
+     -moz-transform: rotateX(5deg);
+      -ms-transform: rotateX(5deg);
+          transform: rotateX(5deg);
+}
+
+.consulter:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba(15, 135, 165, 0);
+  background: rgb(58, 157, 238);
+}
+
+/*
+.container{
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-style: solid;
+    border-color: #4a4a4a;;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    color:  #4a4a4a;
+    text-align: center;
+vertical-align: middle;
+border-width: 2px;
+ }
+ .container:hover{
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-style: solid;
+    border-color: rgb(74, 158, 253);
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    color: rgb(74, 158, 253);
+    text-align: center;
+vertical-align: middle;
+ }
+ 
+ */
+
+
+ 

@@ -1,0 +1,80 @@
+.App {
+  height: 10vh;
+}
+.navbar{
+  margin: 0;
+  font-size: 18px;
+  border:0;
+  border-radius: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 6s linear;
+  height: 100px;
+  padding-right: 0.5em;
+}
+
+/* .App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+} */
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.link {
+  color: white;
+  text-decoration:none;
+
+}
+.link:active {
+  color: white; 
+  text-decoration:none;
+}
+
+.link:hover{
+  color: white;
+  text-decoration:none;
+}
+
+.link:visited{
+  color: white;
+  text-decoration:none;
+}
+
+.link:link{
+  text-decoration:none;
+}
+
+.navbar-end .item:hover{
+  background-color: grey;
+}
+
+.deconnexion:hover{
+  background-color: none;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotateZ(0) } 
+  1% {  transform: rotateZ(-20deg); }
+  2% { transform: rotateZ(20deg) } 
+  3% {  transform: rotateZ(-20deg); }
+  4% { transform: rotateZ(20deg) } 
+  5% {  transform: rotateZ(-20deg); }
+	6% {  transform: rotateZ(0); } 
+	100% {  transform: rotateZ(0);} 
+}
+.ajoutmachine{
+ text-align: center;
+}
+
+.token{
+  color: blue
+}

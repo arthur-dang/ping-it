@@ -1,0 +1,15 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+  - echo "deploy_production"
+  - ssh -tt debian@138.195.139.207 << 'HERE'
+  - cd /var/www/front-ping-it 
+  - git pull origin master 
+  - npm install
+  - npm run build
+  - exit
+  tags:
+  - deploy

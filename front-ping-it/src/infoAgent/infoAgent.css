@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+.back{
+    background-image: url(https://c.pxhere.com/photos/e6/87/stock_trading_monitor_desk_business_finance_exchange_investment-1170475.jpg!d);
+    background-size: cover;
+    background-position:center center;
+    opacity: 1;
+
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Flat';font-size: 22px;
+    
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8vh;
+    background-repeat: repeat;
+
+}
+.doc{
+    z-index: 1;
+    
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 20vh;
+    margin-right: 20vh;
+    border-style: solid;
+    border-color: rgba(139, 139, 139, 0.5);
+    border-width: 1px;
+    padding-bottom: 8vh;
+
+  
+   
+}
+.element{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+   
+}
+.line{
+    
+    width:40vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 50%;
+  margin: 0 auto;
+    
+}
+.code{
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: rgba(138, 138, 138, 0.527);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
