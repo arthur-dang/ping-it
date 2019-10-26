@@ -1,0 +1,49 @@
+#Fichier yml pour dockeriser l'application avec les images des différents outils
+
+version: "3.3"
+services:
+
+  # SETUP Node Container
+  app:
+    container_name: app
+    restart: always
+    build: ./back-ping-it/
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "mongo"
+    environment:
+      WAIT_HOSTS: mongo:27017
+    volumes:
+      - ./back-ping-it/:/usr/src/app
+      - /usr/src/app/node_modules
+    
+    links:
+      - mysql
+
+  # SETUP Front Container
+  front:
+    container_name:  front
+    build: ./front-ping-it/
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./front-ping-it/src:/front-ping-it/src
+      - ./front-ping-it/public:/front-ping-it/public
+
+  # SETUP MySQL
+  mysql:
+    container_name: mysql
+    image: mysql
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: pingit
+
+    volumes:
+      - ./db-dump:/docker-entrypoint-initdb.d
+
+volumes:
+  my-datavolume:
+  node_modules:
